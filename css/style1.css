@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair', serif;
+}
+
+body {
+    background-color: white;
+    /*añadir el imagen de fonto creado*/
+}
+
+
+/* entrada  */
+
+section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    position: absolute;
+    top: 100px;
+    width: 85%;
+    margin: 0px 80px;
+}
+
+
+/* barra de indice  */
+
+header {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Playfair', serif;
+    padding: 10px;
+}
+
+header .logo:hover {
+    background-color: #e8cfff;
+    transition: 1s;
+    border-radius: 20PX;
+    font-size: 2.3em;
+}
+
+header .navbar1 {
+    position: relative;
+    display: flex;
+}
+
+header .navbar1 li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+header .navbar1 a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+header .navbar1 a:hover {
+    background-color: #e8cfff;
+    transition: 1s;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+header .navbar2 {
+    position: relative;
+    display: flex;
+}
+
+header .navbar2 li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+header .navbar2 a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 1em;
+}
+
+header .navbar2 a:hover {
+    background-color: #e8cfff;
+    transition: 1s;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    padding-left: 100px;
+}
+
+
+/* los titulos */
+
+.contenido .tituloBox {
+    position: relative;
+    text-align: left;
+}
+
+.contenido .tituloBox .texto1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Playfair', serif;
+    color: black;
+}
+
+.texto2 {
+    color: black;
+    font-size: 3.5em;
+    font-family: 'Playfair', serif;
+}
+
+.frase {
+    font-size: 1.5em;
+    line-height: 1.5s;
+    font-family: 'Playfair', serif;
+}
+
+.contenido .tituloBox a {
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(252, 218, 255);
+    padding: 10px 20px;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    bottom: -60px;
+}
+
+.contenido .tituloBox a:hover {
+    background-color: white;
+    transition: 1s;
+    border: 1px solid rgb(252, 218, 255);
+}
+
+
+/* imagen de maquina */
+
+.contenido .imgBox {
+    position: absolute;
+    height: 600px;
+    justify-content: left;
+    z-index: -5;
+}
+
+.imgBox img {
+    height: 95vh;
+}
+
+
+/* imgenes de persona */
+
+.persona {
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    margin-right: 130px;
+    border: 1px solid black;
+}
+
+.persona img {
+    height: 200px;
+    width: 150px;
+    justify-content: flex-end;
+}
+
+
+/*CopyRight*/
+
+.copyright {
+    position: absolute;
+    bottom: -30px;
+    left: 40px;
+    margin: 50px;
+}
+
+.copyright p {
+    color: black;
+    text-align: center;
+}
+
+
+/* Las redes */
+
+.redes {
+    position: absolute;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    right: 0px;
+    bottom: 0px;
+    padding: 0 100px 30px;
+    align-items: center;
+    bottom: 100px;
+    right: 50px;
+}
+
+.redes li {
+    padding: 15px;
+}
+
+.redes li a {
+    color: black;
+    font-size: 1em;
+}
+
+.redes li:hover a {
+    background-color: #e8cfff;
+    transition: 1s;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+/* bienvenido */
+
+.tex1 {
+    position: absolute;
+    bottom: -30px;
+    right: 80px;
+    margin: 50px;
+}
+
+.tex1 p {
+    color: black;
+    text-align: center;
+}
+
+
+/*contacto*/
+
+.flecha {
+    position: absolute;
+    right: 260px;
+    top: 140px;
+}
+
+.flecha ion-icon {
+    width: 40px;
+    height: 50px;
+}
+
+.conta a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Playfair', serif;
+    position: absolute;
+    right: 150px;
+    top: 150px;
+    transition: 0.3s;
+}
+
+.conta a:hover {
+    border-bottom: 5px solid rgb(252, 218, 255);
+    padding: 2px;
+}
+
+
+/* Los proyectos Parte Proyecto */
+
+
+/* La parte de izquierda */
+
+.contenedor {
+    position: relative;
+    min-height: 1200px;
+    margin: 0 auto;
+    width: 25%;
+    display: inline-block;
+    background: #AC9797;
+    margin-left: 100px;
+}
+
+.contenedor .caja {
+    /* position: fixed; */
+    position: absolute;
+    margin-left: 12%;
+}
+
+.contenedor .me img {
+    margin-top: 60px;
+    margin-left: 80px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    border: 2px solid white;
+}
+
+.proyetitulo {
+    font-family: 'Playfair', serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.lista .sociales {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 0px 30px;
+}
+
+.sociales li {
+    padding: 15px;
+}
+
+.sociales li a {
+    color: white;
+    font-size: 1.5em;
+}
+
+.sociales li:hover a {
+    transition: 1s;
+    border-radius: 6px;
+    color: black;
+    font-size: 2em;
+}
+
+.lista p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.presentacion div {
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.presentacion p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.contatoBox {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.contatoBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(239, 206, 241);
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: black;
+}
+
+.contatoBox a:hover {
+    background-color: white;
+    transition: 1s;
+    border: 1px solid black;
+}
+
+
+/* la parte de derecha  */
+
+.mapa {
+    background-color: #dbc5ba;
+    position: relative;
+    float: right;
+    height: 280px;
+    right: 0px;
+    margin-right: 9%;
+    width: 55%;
+}
+
+.mapa .izquierda p {
+    margin-top: 50px;
+    margin-left: 20px;
+    /* margin: 0px; */
+    font-size: 3.8em;
+    color: white;
+    font-family: 'Playfair', serif;
+    text-transform: uppercase;
+}
+
+.mapa .izquierda a {
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.mapa .izquierda a:hover {
+    transition: 1s;
+    background: #AC9797;
+    color: black;
+}
+
+
+/* los proyectos de parte izquierda  */
+
+.proyeContenido {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    right: 0px;
+    margin-right: 12%;
+    top: 500px;
+}
+
+.proyeContenido .cajaPro {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.proyeContenido .cajaPro img {
+    width: 300px;
+    height: 180px;
+}
+
+.proyeContenido .cajaPro:hover img {
+    width: 280px;
+    height: 150px;
+}
+
+.cajaPro:hover .contenido-titulo {
+    width: 100%;
+    height: 35%;
+    background: rgb(211, 206, 206);
+    bottom: 20px;
+}
+
+.cajaPro img {
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.cajaPro .contenido-titulo {
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s;
+    color: white;
+}
+
+.cajaPro .contenido-titulo p {
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-family: 'Playfair', serif;
+    color: black;
+}
+
+.cajaPro .contenido-titulo span {
+    font-size: 1em;
+    color: white;
+}
+
+
+/* Formulario Parte de Contacto */
+
+.proyetitulo1 {
+    font-family: 'Playfair', serif;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 2.5em;
+    color: white;
+}
+
+.presentacion1 div {
+    display: flex;
+    color: white;
+}
+
+.presentacion1 .proyText {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(239, 206, 241);
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.presentacion1 .proyText a {
+    top: 25px;
+    right: 25px;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+}
+
+.proyText a:hover {
+    color: black;
+    transition: 1s;
+    font-size: 3.5rem;
+}
+
+.presentacion1 .proyRespue {
+    /* position: absolute; */
+    font-size: 1rem;
+    margin-top: 15%;
+}
+
+.presentacion1 p {
+    font-size: 1em;
+    color: white;
+}
+
+
+/* La parte de formulario */
+
+.proyeContenido1 {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 740px;
+    right: 0px;
+    height: 450px;
+    margin-right: 9%;
+    top: 450px;
+    background: #beada6;
+    border-radius: 30px;
+}
+
+.proyeContenido1 .formulario {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.proyeContenido1 .formulario input {
+    padding: 0 20px;
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.formulario textarea {
+    padding: 0 20px;
+    width: 80%;
+    height: 200px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
